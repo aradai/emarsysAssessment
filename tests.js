@@ -32,6 +32,5 @@ for(let i = 0; i < goodTests.length; i++){
     })();
 }
 
-
 console.log(`✔ Successfull: ${success}/${success + failed}`);
 console.log(`❌ Failed: ${failed}/${success + failed}`);
