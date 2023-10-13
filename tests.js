@@ -19,7 +19,7 @@ const date = new Date();
 })();
 
 (() => {
-    if(CalculateDueDate(new Date("2023-10-10T16:30:00"),1)[1].toString() === new Date("2023-10-11T9:30:00").toString()){
+    if(CalculateDueDate(new Date("2023-10-10T16:30:00"),1)[1].toString() === new Date("2023-10-11T09:30:00").toString()){
         console.log("✔ Test#2 passed");
         success++;
     } else {
@@ -69,7 +69,7 @@ const date = new Date();
 })();
 
 (() => {
-    if(CalculateDueDate(new Date("2023-10-10T10:00:00"),100)[1].toString() === new Date("2023-10-16T11:00:00").toString()){
+    if(CalculateDueDate(new Date("2023-10-10T10:00:00"),100)[1].toString() === new Date("2023-10-26T14:00:00").toString()){
         console.log("✔ Test#7 passed");
         success++;
     } else {
